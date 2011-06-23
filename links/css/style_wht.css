@@ -1,0 +1,139 @@
+* 			{ padding:0; margin:0; list-style-type:none;}
+
+
+body		     {
+			background:#FFF;
+			color:#222;
+			font-size:11px;
+			font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+			margin-left:50px;
+			margin-right:140px;
+			margin-bottom:40px;
+			margin-top:40px;
+			}
+
+p			{ line-height:1.9em; margin-top: 5px;}
+
+
+.list ol	{
+			margin-top: 10px;
+			}
+
+.list ol li {
+			list-style-type: decimal; 
+			list-style-position: inside;
+			}
+			
+.list ol li:hover	{
+					background-color: white;
+					}
+
+/* ------ H1------ */
+
+
+h1			{
+			color:#222;
+			font-size:2em;
+			font-weight:bold;
+			margin-bottom: 2px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			}
+
+
+/* ------ H2------ */
+
+
+h2			{	
+			font-size:1.3em;
+			color:#333;
+			font-weight:normal;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			border-bottom:1px solid #CCC;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			}
+			
+h2 a		{	
+			text-decoration: none;
+			color:#333;
+			}
+			
+h2 a:hover  {	
+			text-decoration: none;
+			color:#999;
+			}
+
+
+/* ------ H3------ */
+
+	
+h3			{	
+			font-size:1.1em;
+			color:#666;
+			font-weight:normal;
+			margin-bottom: 24px;
+			}
+
+		
+/* ------ H4 ------ */
+
+
+h4, h4 a	{	
+			font-size:1em;
+			color:#222;
+			font-weight:normal;
+			text-decoration:none;
+			}
+			
+h4 a:hover	{
+			text-decoration:overline;
+			border-bottom:solid 1px;
+			color:#999;
+			}
+
+
+/* --------------- */
+
+#footer				{
+					margin-bottom: 100px;
+					}
+
+#css_style	        { margin-right: auto; margin-top:0.2em; float:right; }
+
+
+ul					{ margin:0px 0 10px 0;}	
+ul a 				{ color:#222; text-decoration:none; }
+ul a:hover			{ color:#FFF; font-weight:100;}
+ul a:visited		{ color:#222; }
+ul a:hover:visited	{ color:#FFF; }
+	
+li 			    	{ padding:5px 0; }
+					
+li:hover	    	{ background-color:#d3d3d3;}
+
+
+p a 				{ color:#3a6d93; text-decoration:underline; font-weight:bold; }
+p a:hover			{ color:#5a6b77; font-weight:bold; }
+p a:visited			{ color:#3a6d93;  font-weight:bold; }
+p a:hover:visited	{ color:#5a6b77; font-weight:bold; }
+
+.indent p		{ margin-left:20px; }
+
+
+a img 			{ border:none; }
+
+.date 			{
+				color:#777;
+				padding-left: 8px;
+				padding-right: 16px;
+				font-weight:400;
+				}
+
+.open			{ display: block; }
+.closed			{ display: none; }
+
+.mb20			{ margin-bottom: 20px; }
+.mb30			{ margin-bottom: 30px; }
+
+
+
